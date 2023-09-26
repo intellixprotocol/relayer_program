@@ -1,0 +1,14 @@
+.vscode
+.VSCodeCounter
+.VSCodeCounter/
+node_modules/
+yarn.lock
+logs/app.log
+public/uploads/
+files/Keys/
+build/
+.env.local
+.env.local.main
+.env.local.test
+.DS_Store
+**/.DS_Store
