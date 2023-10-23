@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   relayer:
-    image: mix2earn/relayer:1.0.1
+    image: mix2earn/relayer:1.0.3
     restart: unless-stopped
     env_file: ./.env
     environment:

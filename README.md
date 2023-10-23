@@ -15,7 +15,7 @@ docker-compose.yml contains a stack that will automatically provision SSL certif
    - set `PRIVATE_KEY` your private key
    - set `PUBLIC_KEY` your public key
    - set `RPC_URL` your public key
-   - set `NETWORKS` network list . example BSC,ERC20,Matic
+   - set `NETWORKS` network list . example BSC,ETH,Matic
    - set `PORT_LOCAL` local port
    - set `URL` server url
    - set `CONTRACTS` your contracts
@@ -34,7 +34,7 @@ docker-compose.yml contains a stack that will automatically provision SSL certif
 curl --location 'http://localhost:${your_local_port}/api/v1/withdraw' \
 --header 'Content-Type: application/json' \
 --data '{
-   "network" : "BSC"
+   "network" : "ETH"
    "input" : "array of proof"
 }'
 
