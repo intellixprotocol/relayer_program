@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   relayer:
-    image: mix2earn/relayer:1.0.6
+    image: mix2earn/relayer:1.0.8
     restart: unless-stopped
     env_file: ./.env
     environment:
@@ -11,6 +11,7 @@ services:
       - NETWORKS=$NETWORKS
       - URL=$URL
       - CONTRACTS=$CONTRACTS
+      - FEE=$FEE
     ports:
       - $PORT_LOCAL:7002
     stdin_open: true
