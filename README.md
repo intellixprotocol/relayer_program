@@ -1,4 +1,4 @@
 # Relayer's Setup Instruction
 
 
-https://docs.mixtoearn.app/mixtoearn-protocol/relayer-guide
+https://docs.intellixprotocol.ai/intellixshield/relayer-guide
