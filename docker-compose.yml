@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   relayer:
-    image: mix2earn/relayer:1.0.8
+    image: intellixprotocol/relayer:1.0.0
     restart: unless-stopped
     env_file: ./.env
     environment:
